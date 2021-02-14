@@ -43,6 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 //Default Global Current Register value (Default brightness 0 - 255)
 #define ISSI3733_GCR_DEFAULT LED_GCR_MAX
+//#define ISSI3733_GCR_DEFAULT 0
 
 //Automatic power rollback and recovery
 #define V5_HIGH                     2540        //5V high level (After low power detect, point at which LEDs are allowed to use more power )
